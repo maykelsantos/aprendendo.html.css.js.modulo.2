@@ -1,0 +1,36 @@
+@charset "UTF-8";
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family, define a fonte das letras para exibição*/
+}
+body {
+    background-image: linear-gradient(to right, #D9D1C7, #A69E94);
+    /*linear-gradient, parâmetro para definição do plano de fundo gradiente*/
+}
+main {
+    text-align: center;
+    background-image: linear-gradient(to right,#A69E94, #D9D1C7);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    /*text-align, define a posição do texto*/
+    /*width, define a largura do ambiente*/
+    /*padding, define o espaço interno do ambiente, entre o texto e a width*/
+    /*margin, define a posição da margem do ambiente*/
+    /*border-radius, define o arredondamento da borda do ambiente*/
+}
+h1 {
+    color: #590902;
+    /*color, define a cor do texto dentro do ambiente*/
+}
+h2 {
+    text-align: center;
+    color: #593122;
+    background-color: #8C837B;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #81473296;
+    margin: auto;
+    width: 150px;
+    /*box-shadow, parâmetros para definição de sombra do ambiente*/
+}
