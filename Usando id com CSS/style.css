@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* o que em HTML é "id", em CSS é "#" */
-/* o que em HTML é "class", em CSS é "." */
+/* o que em HTML é "id", em CSS é "#" e só pode um elemento */
+/* o que em HTML é "class", em CSS é "." e pode vários elementos */
 
 body {
     background-color: aquamarine;
@@ -12,11 +12,23 @@ h1 {
     color: rgb(47, 109, 88);
 }
 
-h1#principal {
+#principal {
     text-align: center;
     background-color: white;
 }
 
 h2 {
     color:rgb(47, 109, 0);
+}
+
+.basico {
+    color: rgb(109, 0, 0);
+}
+
+.intermediario {
+    color: rgb(0, 2, 109);
+}
+
+.avancado {
+    color: rgb(109, 0, 91);
 }
