@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center; /* alinhamento do texto */
+    background-color: lightgray; /* cor do plano de fundo */
+    height: 300px; /* altura */
+    width: 300px; /* largura */
+    border: 10px; /* borda */
+    border-style: solid; /* estilo da borda */
+    border-color: darkgreen; /* cor da borda */
+    padding-top: 10px; /* preenchimento superior */
+    padding-right: 10px; /* preenchimento à direita */
+    padding-bottom: 10px; /* preenchimento inferior */
+    padding-left: 10px; /* preenchimento à esquerda */
+}
+a {
+    background-color:pink; /* cor do plano de fundo */
+    border: 1px; /* borda */
+    border-style: solid; /* estilo da borda */
+    border-color: red; /*cor da borda */
+}
