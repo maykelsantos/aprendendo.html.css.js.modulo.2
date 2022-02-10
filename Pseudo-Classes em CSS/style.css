@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+
+}
+
+div {
+    display: inline-block; /* inline-block, é blocos em linha */
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px; /* height, significa altura */
+    width: 200px; /* width, siginifica largura */
+}
+
+div:hover {
+    background-color: yellow;
+}
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
