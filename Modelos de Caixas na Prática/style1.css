@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 { /* box-level */
+    text-align: center; /* alinhamento da caixa */
+    background-color: lightgreen; /* cor do plano de fundo */
+
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid lightsalmon;
+
+    margin: auto;
+
+    padding: 10px;
+
+    outline: 5px dashed gray;
+}
+a { /* inline-level */
+    border: 1px solid red;
+
+    padding: 5px;
+
+    background-color: greenyellow;
+}

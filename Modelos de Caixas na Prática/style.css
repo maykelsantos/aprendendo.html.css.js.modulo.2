@@ -3,15 +3,25 @@
 h1 {
     text-align: center; /* alinhamento do texto */
     background-color: lightgray; /* cor do plano de fundo */
+
     height: 300px; /* altura */
     width: 300px; /* largura */
+
     border: 10px; /* borda */
     border-style: solid; /* estilo da borda */
     border-color: darkgreen; /* cor da borda */
+    
     padding-top: 10px; /* preenchimento superior */
     padding-right: 10px; /* preenchimento à direita */
     padding-bottom: 10px; /* preenchimento inferior */
     padding-left: 10px; /* preenchimento à esquerda */
+    /* em relação ao padding, sempre configurá-lo no sentido horário */
+
+    margin: auto; /* margem da caixa, centralizado */
+
+    outline-width: 5px; /* largura da linha no lado externo da borda */
+    outline-style: dashed; /* estilo da linha no lado externo da borda */
+    outline-color: blue; /* cor da linha no lado externo da borda */
 }
 a {
     background-color:pink; /* cor do plano de fundo */
