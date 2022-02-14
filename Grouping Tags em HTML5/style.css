@@ -9,11 +9,14 @@ header {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    border-radius: 20px; /* border-radius, raio da borda */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466);
 }
 nav {
     background-color: lightgray;
     padding: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466); /* box-shadow, é a sombra do conteúdo */
+    
 }
 nav > a {
     padding: 15px;
@@ -28,6 +31,8 @@ main {
     margin: 10px;
     padding: 10px;
     text-align: justify;
+    border-radius: 20px; /* border-radius, raio da borda */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466);
 }
 section {
     background-color: lightgreen;
