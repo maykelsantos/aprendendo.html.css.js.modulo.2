@@ -1,2 +1,30 @@
 @charset "UTF-8";
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+    background-color:rgb(144, 221, 144);
+}
+header {
+    background-image: linear-gradient(to top, rgb(22, 85, 22), rgb(103, 206, 103));
+    margin: 0px 0px 0px 0px;
+}
+header > h1 {
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+}
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+nav > a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: gray;
+}
