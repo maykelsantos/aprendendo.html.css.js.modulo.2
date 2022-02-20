@@ -38,15 +38,40 @@ div {
     background-color: white;
     margin: 0px 42px 0px 42px;
     text-align: justify;
-
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
 }
 div > h1 {
     margin: auto;
     padding: 10px;
     font-family: 'Shizuru';
+    color: rgb(22, 85, 22);
 }
 div > h2 {
-    margin: auto;
-    padding: 10px;
+    margin: 15px;
+    padding: auto;
     font-family: 'Shizuru';
+    background-image: linear-gradient(to right, rgb(22, 85, 22), rgb(103, 206, 103));
+    color: white;
+}
+div > p {
+    margin: 15px;
+}
+div > section {
+    background-color: rgb(103, 206, 103);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+div >section > h3 {
+    background-color: rgb(22, 85, 22);
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+footer {
+    background-color: rgb(103, 203, 103);
+    text-align: center;
+    color: white;
 }
