@@ -1,0 +1,18 @@
+@charset "UTD-8";
+
+/*
+
+paleta de cores a sereme utilizadas:
+
+#948D5C - marrom escuro
+#B8DCE0 - azul claro
+#E0D9A1 - marrom claro
+#E08BB7 - lilás 
+#94637C - roxo
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); /* para os conteúdos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap'); /* para os títulos */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); /* segunda opção para os títulos */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); /* terceira opção para os titulos */
