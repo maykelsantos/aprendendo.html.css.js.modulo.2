@@ -16,3 +16,7 @@ paleta de cores a sereme utilizadas:
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap'); /* para os títulos */
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); /* segunda opção para os títulos */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); /* terceira opção para os titulos */
+
+body {
+    background-color: #b8dce0;
+}
