@@ -17,7 +17,7 @@ paleta de cores a sereme utilizadas:
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); /* segunda opção para os títulos */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); /* terceira opção para os titulos */
 
-:root {
+:root { /* variável CSS */
     --cor01: #B8DCE0;
     --cor02: #E0D9A1;
     --cor03: #E08BB7;
@@ -29,6 +29,42 @@ paleta de cores a sereme utilizadas:
     --fonte-titulo-03: 'Audiowide';
     --fonte-gerais: 'Raleway';
 }
+
+* { /* configurações globais */ 
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: var(--cor01);
+}
+
+header {
+    color: var(--cor01);
+    background-color: var(--cor04);
+}
+
+header > p {
+    color: var(--cor01);
+}
+
+nav {
+    background-color: var(--cor04);
+}
+
+nav > a {
+    color: var(--cor01);
+}
+
+main {
+    background-color: var(--cor02);
+}
+
+footer {
+    background-color: var(--cor05);
+    color: var(--cor01);
+}
+
+footer > a {
+    color: var(--cor01);
 }
