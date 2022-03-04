@@ -88,6 +88,26 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-family: var(--fonte-gerais);
+    font-weight: bold;
+}
+
+main strong {
+    color: var(--cor04);
+    background-color: var(--cor01);
+    padding: 2px;
+}
+
+main a:hover {
+    background-color: var(--cor05);
+
+}
+
 h1 {
     font-family: var(--fonte-titulo-01);    
 }
@@ -95,14 +115,18 @@ h1 {
 h2 {
     font-family: var(--fonte-titulo-02);
     font-style: italic;
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+    padding: 3px;
 }
 
 h3 {
     font-family: var(--fonte-titulo-03);
 }
 
-main > article > img.pequena {
-    width: 50%;
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 footer {
