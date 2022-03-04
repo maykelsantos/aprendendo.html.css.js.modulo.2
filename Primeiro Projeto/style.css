@@ -41,19 +41,39 @@ body {
 
 header {
     color: var(--cor01);
-    background-color: var(--cor04);
+    background-image: linear-gradient(to bottom, var(--cor05), var(--cor04));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    text-shadow: 5px 5px 5px var(--cor05);
 }
 
 header > p {
     color: var(--cor01);
+    font-family: var(--fonte-gerais);
+    margin: auto;
+    max-width: 250px;
 }
 
 nav {
     background-color: var(--cor04);
+    padding: 10px;
 }
 
 nav > a {
     color: var(--cor01);
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor02);
+    color: var(--cor05);
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 
 main {
@@ -69,12 +89,12 @@ main {
 }
 
 h1 {
-    font-family: var(--fonte-titulo-01);
-    
+    font-family: var(--fonte-titulo-01);    
 }
 
 h2 {
     font-family: var(--fonte-titulo-02);
+    font-style: italic;
 }
 
 h3 {
