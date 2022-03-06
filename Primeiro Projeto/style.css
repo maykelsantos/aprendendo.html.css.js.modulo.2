@@ -129,6 +129,21 @@ main img.pequena {
     margin: auto;
 }
 
+main iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+div.video {
+    position: relative;
+    padding-bottom: 50%;
+    margin: 20px;
+    box-shadow: 5px 5px 5px var(--cor04);
+    border-radius: 10px;
+}
+
 aside {
     background-color: var(--cor01);
     padding: 10px;
