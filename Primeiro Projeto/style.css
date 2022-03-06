@@ -129,13 +129,45 @@ main img.pequena {
     margin: auto;
 }
 
-footer {
-    background-color: var(--cor05);
+aside {
+    background-color: var(--cor01);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--cor04);
+}
+
+aside h3 {
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+    padding: 5px;
+    border-radius: 10px;
     color: var(--cor01);
 }
 
-footer > a {
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+    font-family: var(--fonte-gerais);
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--cor05);
     color: var(--cor01);
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--cor01);
+}
+
+footer a:hover {
+    background-color: var(--cor04);
+    color: var(--cor01);
+    font-weight: bold;
 }
 
 img {
